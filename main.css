@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    padding: 30px 0;
+}
+.container{
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+.header-list{
+    display: flex;
+    gap: 40px;
+  
+
+}
+.header-link{
+    font-size: 24px; 
+    text-shadow: 0px 5px 5px white;
+}
+a{
+    color: white;
+}
+.card-all{
+    display: flex;
+    justify-content: space-between;
+      align-items: center;
+}
+.bg-img{
+    background-image: url(./Rectangle\ 2\ \(8\).png);
+    width: 100%;
+    height: 564px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 64px;
+    color: black;
+    background-color: #fff;
+    width: 602px;
+    border-radius: 30px;
+    box-shadow: 9px 9px 15px white;
+position: absolute;
+top: 190px;
+left: 450px;
+}
+.mainbox{ 
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.mini-mainbox{
+
+    width: 227px;
+height: 190px;
+background-color: rgba(50, 251, 0, 1);
+color: red;
+font-size: 24px;
+text-shadow: 3px 0 3px white;
+display: flex;
+justify-content: center;
+align-items: end;
+padding: 20px 0;
+}
+
+.mini-mainbox2{
+    width: 227px;
+height: 190px;
+background-color: rgba(50, 251, 0, 1);
+color: red;
+font-size: 24px;
+text-shadow: 3px 0 3px white;
+display: flex;
+justify-content: center;
+align-items: end;
+padding: 20px 0;
+}
+.mini-mainbox3{
+
+    width: 227px;
+height: 190px;
+background-color: rgba(50, 251, 0, 1);
+color: red;
+font-size: 24px;
+text-shadow: 3px 0 3px white;
+display: flex;
+justify-content: center;
+align-items: end;
+padding: 20px 0;
+}
+.mini-mainbox::after{
+    content: "Obsolute";
+    width: 237px;
+    height: 209px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    
+}
+.mini-mainbox2::after{
+    content: "Obsolute";
+    width: 411px;
+    height: 209px;
+    border-radius: 100px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 100px;
+}
+.mini-mainbox3::after{
+    content: "Obsolute";
+    width: 237px;
+    height: 209px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+.section2{
+height: 600px;
+background-color: black;
+}
+.h2-sec2{
+font-size: 64px;
+text-align: center;
+color: black;
+background-color: #fff;
+width: 602px;
+border-radius: 30px;
+box-shadow: 9px 9px 6px white;
+position: relative;
+top: 40px;
+left: 350px;
+}
+.minibox{
+    width: 342px;
+height: 300px;
+background-color: rgba(123, 37, 37, 1);
+padding-top: 42px;
+
+}
+.h3-sec2{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    margin: 30px 0 30px 0;
+}
+.text-main{
+    margin: 30px auto;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 265px;
+}
+.minibox2{
+    width: 342px;
+    height: 300px;
+    background-color: rgba(123, 37, 37, 1);
+    padding-top: 42px;
+    
+}
+.minibox3{
+    width: 342px;
+    height: 300px;
+    background-color: rgba(123, 37, 37, 1);
+    padding-top: 42px;
+    
+}
+.allcard{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between
+}
+.imgs{
+    margin: 0 0 20px 30px;
+    width: 290px;
+    height: 160px;
+}
+footer{ background-color: black;
+    padding: 30px 0;}
